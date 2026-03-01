@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "resourceful",
+  "version": "1.0.0",
+  "description": "A language-oriented approach to API design. Design APIs by describing use cases in plain language, then generate production-ready OpenAPI specs.",
+  "owner": {
+    "name": "Stephen Mizell",
+    "url": "https://github.com/smizell"
+  },
+  "homepage": "https://github.com/smizell/resourceful",
+  "repository": "https://github.com/smizell/resourceful",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "resourceful",
+      "version": "1.0.0",
+      "description": "Design APIs using the Resourceful approach to API design, start with use cases, use a design document, generate OpenAPI.",
+      "source": ".",
+      "category": "development",
+      "tags": [
+        "api-design",
+        "openapi",
+        "rest",
+        "design"
+      ]
+    }
+  ]
+}
